@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>formsubmission</id>
+    <name>Form Submission</name>
+    <summary>Form submission</summary>
+    <description><![CDATA[Just a submission form]]></description>
+    <licence>agpl</licence>
+    <author mail="marius+nextcloud@flintholms.dk" >Marius F</author>
+    <version>0.0.1</version>
+    <namespace>FormSubmission</namespace>
+    <category>tools</category>
+    <bugs>https://www.test.com</bugs>
+    <dependencies>
+        <nextcloud min-version="12" max-version="12"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Form Submission</name>
+            <route>formsubmission.page.index</route>
+        </navigation>
+    </navigations>
+</info>
