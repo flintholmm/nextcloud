@@ -1,5 +1,6 @@
 <?php
 $CONFIG = array (
+  'debug' => true,
   'passwordsalt' => 'P8aN24HAuP89MGd5fPD6GIw02P9aFT',
   'secret' => 'wV+Va0kA6f03iJqFdVWh1D729qY07e4DhcPIu9wCdx/H17mb',
   'trusted_domains' => 

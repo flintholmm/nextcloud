@@ -14,6 +14,7 @@ class PageController extends Controller {
 		$this->userId = $UserId;
 	}
 
+
 	/**
 	 * CAUTION: the @Stuff turns off security checks; for this page no admin is
 	 *          required and no CSRF check. If you don't know what CSRF is, read
