@@ -4,7 +4,7 @@ namespace OCA\formsubmission\Controller;
 
 use Exception;
 
-$ReceivingEmail = "maf@paspx.com"; // the email address you wish to receive these mails through
+$ReceivingEmail = "maf@paspx.com"; // the email address you wish to receive these mails through.
 $thanksPage = ''; // URL to 'thanks for sending mail' page; leave empty to keep message on the same page
 $maxPoints = 4; // max points a person can hit before it refuses to submit - recommend 4
 $requiredFields = "comments"; // names of the fields you'd like to be required as a minimum, separate each field with a comma
